@@ -13,11 +13,11 @@ $$\frac{1}{\mathrm{Da}} \frac{dc_A}{dz} + c_A^n = 0$$
 *   $n$: Reaction order
 
 ## Analytical Ground Truth
-To validate the model's accuracy, the analytical solution was derived. For a reaction order of $n > 1$, the exact concentration profile is[cite: 6]:
+To validate the model's accuracy, the analytical solution was derived. For a reaction order of $n > 1$, the exact concentration profile is:
 
-$$C_A(z) = \left[ 1 + Da(n - 1)z \right]^{\frac{1}{1 - n}}$$
+$$C_A(z) = \left[ 1 + \mathrm{Da}(n - 1)z \right]^{\frac{1}{1 - n}}$$
 
-*Note: The complete manual integration for ground truth solutions ($n=0, n=1, n>1$) is available in `docs/PINN.pdf`*[cite: 6].
+*Note: The complete manual integration for ground truth solutions ($n=0, n=1, n>1$) is available in `docs/PINN.pdf`*.
 
 ## Results
 The animation below demonstrates the training evolution. The standard MLP overfits to simulated sensor noise, while the PINN regularizes to the physical ODE and boundary conditions.
