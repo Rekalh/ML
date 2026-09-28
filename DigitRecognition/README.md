@@ -11,4 +11,4 @@ Backpropagation gradients were derived using matrix differential calculus and th
 
 $$\nabla_{w_1} \mathcal{L} = \frac{1}{N_p} (w_2^T \mathcal{E}_{h2} \odot \sigma'_{ReLU}) X^T$$
 
-*Note: The complete step-by-step matrix calculus derivations for all weight and bias gradients, including $\nabla_{b_1} \mathcal{L} = \frac{1}{N_p} \mathcal{E}_{h1}$, can be found in `docs/Digit recognition (2 hidden layers, MLP).pdf`*.
+*Note: The complete step-by-step matrix calculus derivations for all weight and bias gradients can be found in `docs/Digit recognition (2 hidden layers, MLP).pdf`*.
