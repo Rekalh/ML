@@ -5,11 +5,11 @@ A custom PINN built in PyTorch to model the concentration profile of a steady-st
 ## The Physics Model
 The physical system is a dimensionless, isothermal PFR governed by the following species balance:
 
-$$\frac{1}{Da} \frac{dc_A}{dz} + c_A^n = 0$$
+$$\frac{1}{\mathrm{Da}} \frac{dc_A}{dz} + c_A^n = 0$$
 
 *   $c_A$: Dimensionless concentration
 *   $z$: Dimensionless reactor length $[0, 1]$
-*   $Da$: Damkohler number
+*   $\mathrm{Da}$: Damkohler number
 *   $n$: Reaction order
 
 ## Analytical Ground Truth
