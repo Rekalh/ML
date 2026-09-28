@@ -22,4 +22,4 @@ $$C_A(z) = \left[ 1 + Da(n - 1)z \right]^{\frac{1}{1 - n}}$$
 ## Results
 The animation below demonstrates the training evolution. The standard MLP overfits to simulated sensor noise, while the PINN regularizes to the physical ODE and boundary conditions.
 
-![PINN vs MLP Training](pinn_vs_mlp_training.gif)
+![PINN vs MLP Training](pinn_training.gif)
